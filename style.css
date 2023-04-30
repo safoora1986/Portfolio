@@ -93,3 +93,24 @@ h3 {
   background-color: #6c63ff;
   color: #fff;
 }
+
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+  img {
+    display: none;
+  }
+  h1 {
+    font-size: 76px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 19px;
+  }
+  .sheCodes-btn {
+    width: 100%;
+  }
+}
